@@ -1,0 +1,12 @@
+
+
+@import './header';
+
+@import './variaveis.scss';
+
+
+
+.contato{
+    @include flexCenter(column, yellow);
+    @extend header;
+}
